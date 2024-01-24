@@ -1,6 +1,5 @@
 <p align="center">
   <img width="100" src="src/assets/react.png" alt="react logo" style="margin-right: 70px">
-  <img width="100" src="src/assets/vite.svg" alt="vite logo">
 </p>
 
 # React TypeScript Boilerplate
