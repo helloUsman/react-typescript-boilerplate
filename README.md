@@ -15,6 +15,8 @@ This is a boilerplate project for building modern web applications using React a
   - `components/`: Reusable React components.
   - `containers/`: Higher-level components or page layouts.
   - `hooks/`: Custom React hooks.
+  - `routing/`: Define routes and components.
+     - `Routes.tsx`: Define your application routes using React Router.
   - `utils/`: Utility functions and helpers.
   - `App.tsx`: The main entry point for the application.
   - `index.tsx`: The root file for rendering the React app.
