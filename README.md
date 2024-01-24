@@ -2,7 +2,7 @@
   <img width="100" src="src/assets/react.png" alt="react logo" style="margin-right: 70px">
 </p>
 
-# React TypeScript Boilerplate
+<h1 align="center" style="border-bottom: none;">React TypeScript Boilerplate</h1>
 
 ## Overview
 
