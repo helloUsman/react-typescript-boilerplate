@@ -141,7 +141,9 @@ const UserInfo: React.FC<FormProps> = ({ onSave }) => {
         </Select>
       </InputWrapper>
 
-      <Button onClick={handleSave}>Save</Button>
+      <Button type="submit" onClick={handleSave}>
+        Save
+      </Button>
     </FormContainer>
   );
 };
