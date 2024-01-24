@@ -16,43 +16,35 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "preview": {
       "name": "preview",
-      "command": "yarn preview",
-      "runAtStart": false
+      "command": "yarn preview"
     },
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "yarn lint:fix",
-      "runAtStart": false
+      "command": "yarn lint:fix"
     },
     "format": {
       "name": "format",
-      "command": "yarn format",
-      "runAtStart": false
+      "command": "yarn format"
     },
     "format.fix": {
       "name": "format.fix",
-      "command": "yarn format.fix",
-      "runAtStart": false
+      "command": "yarn format.fix"
     },
     "format.check": {
       "name": "format.check",
-      "command": "yarn format.check",
-      "runAtStart": false
+      "command": "yarn format.check"
     },
     "postinstall": {
       "name": "postinstall",
-      "command": "yarn postinstall",
-      "runAtStart": false
+      "command": "yarn postinstall"
     }
   }
 }
