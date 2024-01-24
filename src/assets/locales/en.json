@@ -1,0 +1,11 @@
+{
+  "TEST_KEY": "English",
+  "REACT_BOILERPLATE": "React Boilerplate",
+  "WELCOME_TITLE": "Welcome to My Website",
+  "WELCOME_DESCRIPTION": "This is the description of the home page.",
+  "FEATURED_CARDS_TITLE": "Featured Cards",
+  "TITLE": "Card {{cardNumber}}",
+  "DESCRIPTION": "Description for Card {{cardNumber}}",
+  "ANOTHER_SECTION_TITLE": "Another Section",
+  "ANOTHER_SECTION_DESCRIPTION": "This is another section with some text."
+}

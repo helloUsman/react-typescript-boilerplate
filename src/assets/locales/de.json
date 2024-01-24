@@ -1,0 +1,11 @@
+{
+  "TEST_KEY": "Deutsch",
+  "REACT_BOILERPLATE": "React Anlasser",
+  "WELCOME_TITLE": "Willkommen auf meiner Website",
+  "WELCOME_DESCRIPTION": "Dies ist die Beschreibung der Startseite.",
+  "FEATURED_CARDS_TITLE": "Hervorgehobene Karten",
+  "TITLE": "Karte {{cardNumber}}",
+  "DESCRIPTION": "Beschreibung für Karte {{cardNumber}}",
+  "ANOTHER_SECTION_TITLE": "Weiterer Abschnitt",
+  "ANOTHER_SECTION_DESCRIPTION": "Dies ist ein weiterer Abschnitt mit etwas Text."
+}
