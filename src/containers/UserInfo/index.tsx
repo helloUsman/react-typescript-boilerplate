@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { useTranslation } from "src/utils/translations/Translator";
 
 interface FormProps {
   onSave: (data: FormData) => void;
@@ -61,6 +62,7 @@ const Button = styled.button`
 `;
 
 const UserInfo: React.FC<FormProps> = ({ onSave }) => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -110,7 +112,7 @@ const UserInfo: React.FC<FormProps> = ({ onSave }) => {
       </InputWrapper>
 
       <InputWrapper>
-        <Label>Email</Label>
+        <Label>{t("EMAIL")}</Label>
         <Input
           type="email"
           value={formData.email}

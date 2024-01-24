@@ -7,5 +7,6 @@
   "TITLE": "Karte {{cardNumber}}",
   "DESCRIPTION": "Beschreibung für Karte {{cardNumber}}",
   "ANOTHER_SECTION_TITLE": "Weiterer Abschnitt",
-  "ANOTHER_SECTION_DESCRIPTION": "Dies ist ein weiterer Abschnitt mit etwas Text."
+  "ANOTHER_SECTION_DESCRIPTION": "Dies ist ein weiterer Abschnitt mit etwas Text.",
+  "EMAIL": "Email"
 }
