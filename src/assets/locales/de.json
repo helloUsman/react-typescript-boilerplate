@@ -8,5 +8,6 @@
   "DESCRIPTION": "Beschreibung für Karte {{cardNumber}}",
   "ANOTHER_SECTION_TITLE": "Weiterer Abschnitt",
   "ANOTHER_SECTION_DESCRIPTION": "Dies ist ein weiterer Abschnitt mit etwas Text.",
-  "EMAIL": "Email"
+  "EMAIL": "Email",
+  "CHECK_USER_INFO": "Benutzerinformationen prüfen"
 }

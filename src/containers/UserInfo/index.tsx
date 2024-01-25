@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { useTranslation } from "src/utils/translations/Translator";
+import { useNavigate } from "react-router-dom";
+import { AllRoutes } from "src/routing/Routes";
 
 interface FormProps {
-  onSave: (data: FormData) => void;
+  onSave?: (data: FormData) => void;
 }
 
 interface FormData {
@@ -61,8 +63,9 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const UserInfo: React.FC<FormProps> = ({ onSave }) => {
+const UserInfo: React.FC<FormProps> = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -81,7 +84,6 @@ const UserInfo: React.FC<FormProps> = ({ onSave }) => {
   };
 
   const handleSave = () => {
-    onSave(formData);
     setFormData({
       firstName: "",
       lastName: "",
@@ -89,6 +91,7 @@ const UserInfo: React.FC<FormProps> = ({ onSave }) => {
       number: "",
       country: "Select Country"
     });
+    navigate(AllRoutes.BOILERPLATE_ROOT);
   };
 
   return (
