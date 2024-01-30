@@ -50,7 +50,7 @@ const Select = styled.select`
   font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin-top: 5px;
+  margin-top: 6px;
 `;
 
 const Button = styled.button`
