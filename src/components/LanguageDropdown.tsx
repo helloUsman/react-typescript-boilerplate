@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import i18next from "i18next";
 import styled from "styled-components";
-import DownArrow from "src/assets/images/DownArrowWhite.svg";
-import Selected from "src/assets/images/Selected.svg";
-import World from "src/assets/images/World.svg";
+import DownArrow from "src/assets/images/downArrowWhite.svg";
+import Selected from "src/assets/images/selected.svg";
+import World from "src/assets/images/world.svg";
 import { Language } from "src/utils/enums/Language";
 import theme from "src/utils/theme/theme";
 import { translateError } from "src/utils/translations/Translator";
