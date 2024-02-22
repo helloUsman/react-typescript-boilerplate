@@ -74,7 +74,6 @@ const Home: React.FC<HomeProps> = () => {
       <Section>
         <Title>{t("ANOTHER_SECTION_TITLE")}</Title>
         <Description>{t("ANOTHER_SECTION_DESCRIPTION")}</Description>
-        <Description>{"This is s3 change"}</Description>
       </Section>
     </HomeContainer>
   );
