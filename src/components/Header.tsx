@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
     <HeaderContainer>
       <LeftContent>
-        <LogoImage src={ReactLogo} alt="React Logo" />
+        <LogoImage src={ReactLogo} alt="logo" />
       </LeftContent>
       <CenterContent>{title}</CenterContent>
       <RightContent>

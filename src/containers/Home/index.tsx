@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { useTranslation } from "src/utils/translations/Translator";
+import { AllRoutes } from "src/routing/Routes";
+import { useNavigate } from "react-router-dom";
 
 interface HomeProps {}
 
@@ -51,8 +53,19 @@ const Card = styled.div`
   }
 `;
 
+const Button = styled.button`
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+`;
+
 const Home: React.FC<HomeProps> = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <HomeContainer>
       <Section>
@@ -74,6 +87,7 @@ const Home: React.FC<HomeProps> = () => {
       <Section>
         <Title>{t("ANOTHER_SECTION_TITLE")}</Title>
         <Description>{t("ANOTHER_SECTION_DESCRIPTION")}</Description>
+        <Button onClick={() => navigate(AllRoutes.USER_INFORMATION)}>{t("CHECK_USER_INFO")}</Button>
       </Section>
     </HomeContainer>
   );

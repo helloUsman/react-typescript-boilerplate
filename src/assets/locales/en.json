@@ -7,5 +7,7 @@
   "TITLE": "Card {{cardNumber}}",
   "DESCRIPTION": "Description for Card {{cardNumber}}",
   "ANOTHER_SECTION_TITLE": "Another Section",
-  "ANOTHER_SECTION_DESCRIPTION": "This is another section with some text."
+  "ANOTHER_SECTION_DESCRIPTION": "This is another section with some text.",
+  "EMAIL": "Email",
+  "CHECK_USER_INFO": "Check User Info"
 }

@@ -8,8 +8,8 @@ const App: React.FC = () => {
   const { t } = useTranslation();
   return (
     <>
-      <Header title={t("REACT_BOILERPLATE")} />
       <Router>
+        <Header title={t("REACT_BOILERPLATE")} />
         <Routes />
       </Router>
     </>
